@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Trivia Game</title>
+    
+</head>
+<body>
+    <div>
+    <h1>Player 1</h1>
+    <div id="player1-score">Score: 0</div>
+    </div>
+    <div>
+    <h1>Player 2</h1>
+    <div id="player2-score">Score: 0</div>
+    </div>
+    <div id="question-container">
+    <div id="question"></div>
+    <h1>Trivia Game</h1>
+    <div id="question">Click "New Question" to start the game</div>
+    <div id="score">Score: 0</div>
+    <input id="answer" type="text" placeholder="Your answer here">
+    <button id="questionBtn">New Question</button>
+    <button id="answerBtn">Submit Answer</button>
+    <div id="feedback"></div>
+    </div>
+
+    <script src="questions.js"></script> <!-- Link to your JSON data -->
+    <script src="trivia.js"></script> <!-- Link to your JS file -->
+</body>
+</html>
